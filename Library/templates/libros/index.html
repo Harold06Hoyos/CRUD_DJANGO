@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block titulo %} Nosotros {% endblock %}
+
+{% block contenido %} 
+<div class="card">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+        <h4 class="card-title">Title</h4>
+        <div class="table-responsive">
+            <table class="table table-primary">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Titulo</th>
+                        <th scope="col">Imagen</th>
+                        <th scope="col">Descripción</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="">
+                        <td scope="row">1</td>
+                        <td>Django con Python</td>
+                        <td>Foto</td>
+                        <td>Produndizando en programación</td>
+                        <td>Editar | Borrar</td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row">Item</td>
+                        <td>Item</td>
+                        <td>Item</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    <div class="card-footer text-muted">Footer</div>
+</div>
+
+{% endblock %}
